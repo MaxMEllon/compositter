@@ -31,4 +31,5 @@ const f = compositter([function1, function2])
 
 LICENSE
 ---
-[](./LICENSE.txt)
+
+[MIT](./LICENSE.txt)
