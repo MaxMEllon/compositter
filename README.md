@@ -16,6 +16,7 @@ let function1 x = x + 1
 let function2 x = x * 5
 
 let f = function1 >> function2
+f(10) //=> 55
 ```
 
 - in javascript
@@ -27,6 +28,7 @@ const function1 = x => x + 1
 const function2 = x => x * 5
 
 const f = compositter([function1, function2])
+f(10) //=> 55
 ```
 
 LICENSE
